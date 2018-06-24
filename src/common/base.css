@@ -1,0 +1,55 @@
+html{
+	font: 12px/1.5 "Microsoft YaHei", "SimSun", '\5b8b\4f53', sans-serif;
+}
+body{
+	background-color: #f5f5f5;
+}
+a{
+	color: #999;
+	text-decoration: none;
+}
+body,ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+input[type='checkbox']{
+    cursor: pointer;
+}
+label,button{
+    cursor: pointer;
+}
+input,button,select,textarea{outline:none;}
+.wrap{
+	width: 1080px;
+	margin: 0 auto;
+}
+.btn{
+	width: 130px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	background-color: #FF0036;
+	color: #fff;
+	border: none;
+}
+
+.link{
+	cursor: pointer;
+	color: #999;
+}
+.link:hover{
+	color: #FF0036;
+}
+.clearf:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.focus{
+	color: #FF0036;
+}
