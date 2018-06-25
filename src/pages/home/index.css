@@ -140,3 +140,133 @@
 .nav-contain .list a:hover{
 	color: #FF0036;
 }
+.content-header{
+	height: 30px;
+	line-height: 30px;
+	margin: 25px 0 10px 0;
+}
+.content-header:before{
+	content: "";
+	float: left;
+	display: block;
+	width: 4px;
+	height: 18px;
+	margin: 6px 15px 6px 0;
+	background-color: #000;
+}
+.content-header .title{
+	float: left;
+	font-size: 18px;
+	line-height: 30px;
+}
+.content-header .title span{
+	margin-right: 10px;
+}
+.content-header .list{
+	float: right;
+}
+.content-header .list li{
+	float: left;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 5px 0 5px 10px;
+	cursor: pointer;
+}
+.content-header .list li:hover{
+	color: #ff0036;
+	border-bottom: 1px solid #ff0036;
+}
+.prod .brand{
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+	width: 208px;
+	height: 600px;
+	margin-right: 10px;
+	background-color: #ccc;
+	cursor: pointer;
+}
+.prod .brand .text-box{
+	position: absolute;
+	width: 170px;
+	height: 60px;
+	left: 0;
+	bottom: 150px;
+	overflow: hidden;
+}
+.prod .brand .text-box>.l{
+	float: left;
+	width: 40px;
+	height: 40px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	padding: 10px;
+	background-color: rgba(0,0,0,.8);
+}
+.prod .brand .text-box>.r{
+	float: left;
+	width: 90px;
+	height: 40px;
+	line-height: 20px;
+	font-size: 18px;
+	color: #fff;
+	padding: 10px;
+	background-color: rgba(0,0,0,.7);
+}
+.prod .brand .arrow{
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	width: 32px;
+	height: 32px;
+	font-size: 26px;
+	line-height: 28px;
+	text-align: center;
+	color:#eee;
+	border-radius: 50%;
+	border:2px solid #eee;
+}
+.prod .prod-list{
+	float: left;
+	width: 872px;
+	height: 600px;
+	margin-right: -10px;
+	overflow: hidden;
+}
+.prod .prod-list-item{
+	float: left;
+	width: 208px;
+	height: 295px;
+	padding: 10px;
+	margin: 0 10px 10px 0;
+	background-color: #fff;
+}
+.prod .prod-list-item img{
+	width: 100%;
+}
+.prod .prod-title{
+	margin: 10px;
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.prod .prod-price{
+	font-size: 18px;
+	text-align: center;
+	color: #ff0036;
+}
+.prod-item{
+	border:1px solid #fff;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.prod-item:hover{
+	border:1px solid #ff0036;
+}
+.prod-item img:hover{
+	opacity: .8;
+}
