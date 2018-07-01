@@ -14,8 +14,7 @@
   "author": "ycx1991@live.com",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.3.1",
-    "normalize.css": "^8.0.0"
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

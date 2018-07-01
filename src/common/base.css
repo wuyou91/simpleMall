@@ -7,8 +7,12 @@ body{
 a{
 	color: #999;
 	text-decoration: none;
+	cursor: pointer;
 }
-body,ul{
+a:hover{
+	color: #ff0036;
+}
+body,ul,input{
 	margin: 0;
 	padding: 0;
 }
@@ -18,8 +22,23 @@ li{
 input[type='checkbox']{
     cursor: pointer;
 }
+input::-webkit-input-placeholder{
+    color:#C4C4C4;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#C4C4C4;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#C4C4C4;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#C4C4C4;
+}
 label,button{
     cursor: pointer;
+}
+button{
+	border: none;
 }
 input,button,select,textarea{outline:none;}
 .wrap{
@@ -40,9 +59,7 @@ input,button,select,textarea{outline:none;}
 	cursor: pointer;
 	color: #999;
 }
-.link:hover{
-	color: #FF0036;
-}
+
 .clearf:after{
 	content: "";
 	display: block;
@@ -52,4 +69,8 @@ input,button,select,textarea{outline:none;}
 }
 .focus{
 	color: #FF0036;
+}
+/*fontawesome图标颜色*/
+.fa-check-circle{
+	color: #84d54b;
 }

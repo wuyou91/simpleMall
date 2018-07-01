@@ -1,0 +1,148 @@
+body{
+	background-color: #fff;
+}
+/*最顶部灰色小导航条*/
+.header{
+	overflow: hidden;
+	min-width:1080px;
+	color: #999;
+	height: 32px;
+	line-height: 32px;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #e5e5e5;
+}
+.header .user{
+	float: left;
+}
+.user .user-item{
+	padding: 0 4px;
+	margin-right: 8px;
+}
+.user .user-item>i{
+	color: #ff0036;
+}
+.header .header-nav{
+	float: right;
+}
+.header-nav ul{
+	overflow: hidden;
+}
+.header-nav li{
+	float: left;
+	margin-left: 8px;
+}
+.header-nav li a{
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 4px;
+}
+/*logo和搜索区*/
+.header-main{
+	width: 100%;
+	min-width:1080px;
+	height: 160px;
+}
+.header-main .logo>a{
+	float: left;
+	width: 250px;
+	line-height: 130px;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 800;
+	margin-right: 110px;
+	color: #ff0036;
+}
+.header-main .header-search{
+	float: left;
+	margin-top: 45px;
+}
+.header-main .header-search .search-main>input{
+	display: block;
+	float: left;
+	width: 400px;
+	line-height: 24px;
+	padding: 5px 10px;
+	border: 2px solid #FF0036;
+}
+.header-main .header-search .search-main>button{
+	padding: 0;
+	font-size: 20px;
+	font-weight: 800;
+}
+.header-main .header-search .key-words>li{
+	float: left;
+	color: #999;
+	font-size: 15px;
+	margin-right: 6px;
+}
+.header-main .header-search .key-words>li>a{
+	padding: 2px;
+	margin-right: 4px;
+}
+.content .prompt{
+	padding: 50px 0;
+	text-align: center;
+	font-size: 18px;
+	color: #999;
+	border-top: 1px solid #e5e5e5;
+}
+.content .prompt>span{
+	color: #666;
+	font-weight: 600;
+}
+/*排序导航按钮*/
+.prod-nav{
+	padding: 5px;
+	background-color: #faf9f9;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.prod-nav>div{
+	cursor: pointer;
+	float: left;
+	padding: 2px 5px;
+	border: 1px solid #ccc;
+	color: #806f66;
+}
+.prod-nav>div.sort-active{
+	color: #ff0036;
+	background-color: #F1EDEC;
+}
+.prod-nav i.fa-sort-up{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+/*商品列表*/
+.prod-list{
+	margin-right: -10px;
+}
+.prod-box{
+	box-sizing: border-box;
+	width: 196px;
+	padding: 4px;
+	margin: 0 20px 20px 0;
+	float: left;
+	border: 1px solid #f5f5f5;
+}
+.prod-box:hover{
+	outline: 4px solid #ff0036;
+}
+.prod-box img{
+	height: 186px;
+}
+.prod-box .price{
+	margin: 5px;
+	font-size: 18px;
+	color: #ff0036;
+	line-height: 26px;
+}
+.prod-box .price>span{
+	font-size: 14px;
+}
+.prod-box .prod-title{
+	margin: 5px;
+	height: 40px;
+	overflow: hidden;
+}

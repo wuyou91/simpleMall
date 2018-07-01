@@ -8,19 +8,37 @@
   <title>SimpleMall</title>
 </head>
 <body>
-  <div class="header">
+  <div id="side-nav">
+      <span>导航</span>
+      <a href="#beauty" class="hover-bg-pink">美丽人生</a>
+      <a href="#grocery" class="hover-bg-green">居家生活</a>
+      <a href="#outdoor" class="hover-bg-cyan">户外出行</a>
+      <a href="#electronic" class="hover-bg-blue">潮电酷玩</a>
+      <a href="#maylike" class="may-like">猜你喜欢</a>
+      <a href="#top-header"><i class="fa fa-angle-up"></i>顶部</a>
+  </div>
+  <div id="top-nav">
+    <div class="wrap">
+      <div class="brand">SimpleMall</div>
+      <div class="search">
+          <input class="search-val-top" type="text" placeholder="请输入您需要的商品">
+          <button class="btn search-btn-top">搜索</button>
+      </div>
+    </div>
+  </div>
+  <div class="header" id="top-header">
     <div class="wrap">
       <div class="user">
         <span class="user-item">嗨！欢迎来到SimpleMall</span>
-        <a href="../login/login.html" class="link user-item">请登陆</a>
-        <a href="../register/register.html" class="link user-item">请注册</a>
+        <a href="./login.html" class="link user-item">请登陆</a>
+        <a href="./register.html" class="link user-item">免费注册</a>
       </div>
       <div class="header-nav">
         <ul>
-          <li><a href="./cart/cart.html" class="link">个人中心</a></li>
-          <li><i class="fa fa-shopping-cart"></i><a href="./cart/cart.html" class="link">购物车<strong class="pro-count" style="color:#FF0036"> 0 </strong>件</a></li>
-          <li><a href="./cart/cart.html" class="link">关于我们</a></li>
-          <li><a href="./cart/cart.html" class="link">网站导航</a></li>
+          <li><a href="./login.html" class="link">个人中心</a></li>
+          <li><i class="fa fa-shopping-cart"></i><a href="./cart.html" class="link">购物车<strong class="pro-count" style="color:#FF0036"> 0 </strong>件</a></li>
+          <li><a href="./about.html" class="link">关于我们</a></li>
+          <li><a href="./cart.html" class="link">网站导航</a></li>
         </ul>
       </div>
     </div>
@@ -30,32 +48,32 @@
       <div class="logo">SimpleMall</div>
       <div class="header-search">
         <div class="search-main">
-          <input type="text" placeholder="请输入您需要的商品">
-          <button class="btn">搜索</button>
+          <input class="search-val" type="text" placeholder="请输入您需要的商品">
+          <button class="btn search-btn">搜索</button>
         </div>
         <ul class="key-words clearf">
-          <li><a href="list.html？">针织衫</a>|</li>
-          <li><a class="focus" href="list.html？">连衣裙</a>|</li>
-          <li><a href="list.html？">四件套</a>|</li>
-          <li><a class="focus" href="list.html？">摄像头</a>|</li>
-          <li><a href="list.html？">手机 </a>|</li>
-          <li><a href="list.html？">口红 </a>|</li>
-          <li><a href="list.html？">运动鞋</a>|</li>
-          <li><a  class="focus" href="list.html？">电视 </a>|</li>
-          <li><a href="list.html？">空调 </a></li>
+          <li><a href="./list.html?keyword=针织衫">针织衫</a>|</li>
+          <li><a class="focus" href="list.html?keyword=连衣裙">连衣裙</a>|</li>
+          <li><a href="./list.html?keyword=四件套">四件套</a>|</li>
+          <li><a class="focus" href="./list.html?keyword=摄像头">摄像头</a>|</li>
+          <li><a href="./list.html?keyword=手机">手机</a>|</li>
+          <li><a href="./list.html?keyword=口红">口红</a>|</li>
+          <li><a href="./list.html?keyword=运动鞋">运动鞋</a>|</li>
+          <li><a  class="focus" href="./list.html?keyword=电视">电视</a>|</li>
+          <li><a href="./list.html?keyword=空调">空调</a></li>
         </ul>
       </div>
       <ul class="header-nav">
-        <li><a href="list.html?">电器城</a></li>
-        <li><a href="list.html?">生鲜超市</a></li>
-        <li><a href="list.html?">营业厅</a></li>
-        <li><a href="list.html?">家装攻略</a></li>
-        <li><a href="list.html?">环游世界</a></li>
-        <li><a href="list.html?">魅力惠</a></li>
-        <li><a href="list.html?">全球购</a></li>
-        <li><a href="list.html?">潮人社区</a></li>
-        <li><a href="list.html?">数码世界</a></li>
-        <li><a href="list.html?">吃货天堂</a></li>
+        <li><a href="list.html?keyword=电器城">电器城</a></li>
+        <li><a href="list.html?keyword=生鲜超市">生鲜超市</a></li>
+        <li><a href="list.html?keyword=营业厅">营业厅</a></li>
+        <li><a href="list.html?keyword=家装攻略">家装攻略</a></li>
+        <li><a href="list.html?keyword=环游世界">环游世界</a></li>
+        <li><a href="list.html?keyword=魅力惠">魅力惠</a></li>
+        <li><a href="list.html?keyword=全球购">全球购</a></li>
+        <li><a href="list.html?keyword=潮人社区">潮人社区</a></li>
+        <li><a href="list.html?keyword=数码世界">数码世界</a></li>
+        <li><a href="list.html?keyword=吃货天堂">吃货天堂</a></li>
       </ul>
     </div>
   </div>
@@ -63,19 +81,19 @@
     <div class="list-ps wrap">
       <ul class="list">
         <li class="list-title"><i class="fa fa-list-ul"></i>商品分类</li>
-        <li class="list-item"><i class="fa fa-female"></i><a href="list.html?">女装</a><a href="list.html?">/内衣</a></li>
-        <li class="list-item"><i class="fa fa-male"></i><a href="list.html?">男装</a><a href="list.html?">/运动户外</a></li>
-        <li class="list-item"><i class="fa fa-briefcase"></i><a href="list.html?">女鞋</a><a href="list.html?">/男鞋</a><a href="list.html?">/箱包</a></li>
-        <li class="list-item"><i class="fa fa-map-pin"></i><a href="list.html?">美妆</a><a href="list.html?">/个人护理</a></li>
-        <li class="list-item"><i class="fa fa-diamond"></i><a href="list.html?">腕表</a><a href="list.html?">/眼镜</a><a href="list.html?">/珠宝饰品</a></li>
-        <li class="list-item"><i class="fa fa-desktop"></i><a href="list.html?">手机</a><a href="list.html?">/数码</a><a href="list.html?">/电脑办公</a></li>
-        <li class="list-item"><i class="fa fa-puzzle-piece"></i><a href="list.html?">母婴玩具</a></li>
-        <li class="list-item"><i class="fa fa-glass"></i><a href="list.html?">零食</a><a href="list.html?">/茶酒</a><a href="list.html?">/进口食品</a></li>
-        <li class="list-item"><i class="fa fa-leaf"></i><a href="list.html?">生鲜水果</a></li>
-        <li class="list-item"><i class="fa fa-fax"></i><a href="list.html?">大家电</a><a href="list.html?">/生活电器</a></li>
-        <li class="list-item"><i class="fa fa-bed"></i><a href="list.html?">家纺</a><a href="list.html?">/家饰</a><a href="list.html?">/鲜花</a></li>
-        <li class="list-item"><i class="fa fa-cutlery"></i><a href="list.html?">厨具</a><a href="list.html?">/收纳</a><a href="list.html?">/宠物</a></li>
-        <li class="list-item"><i class="fa fa-book"></i><a href="list.html?">图书音像</a></li>
+        <li class="list-item"><i class="fa fa-female"></i><a href="./list.html?keyword=女装">女装</a><a href="./list.html?keyword=内衣">/内衣</a></li>
+        <li class="list-item"><i class="fa fa-male"></i><a href="./list.html?keyword=男装">男装</a><a href="./list.html?keyword=运动户外">/运动户外</a></li>
+        <li class="list-item"><i class="fa fa-briefcase"></i><a href="./list.html?keyword=女鞋">女鞋</a><a href="./list.html?keyword=男鞋">/男鞋</a><a href="./list.html?keyword=箱包">/箱包</a></li>
+        <li class="list-item"><i class="fa fa-map-pin"></i><a href="./list.html?keyword=美妆">美妆</a><a href="./list.html?keyword=个人护理">/个人护理</a></li>
+        <li class="list-item"><i class="fa fa-diamond"></i><a href="./list.html?keyword=腕表">腕表</a><a href="./list.html?keyword=眼镜">/眼镜</a><a href="./list.html?keyword=珠宝饰品">/珠宝饰品</a></li>
+        <li class="list-item"><i class="fa fa-desktop"></i><a href="./list.html?keyword=手机">手机</a><a href="./list.html?keyword=数码">/数码</a><a href="./list.html?keyword=电脑办公">/电脑办公</a></li>
+        <li class="list-item"><i class="fa fa-puzzle-piece"></i><a href="./list.html?keyword=母婴玩具">母婴玩具</a></li>
+        <li class="list-item"><i class="fa fa-glass"></i><a href="./list.html?keyword=零食">零食</a><a href="./list.html?keyword=茶酒">/茶酒</a><a href="./list.html?keyword=进口食品">/进口食品</a></li>
+        <li class="list-item"><i class="fa fa-leaf"></i><a href="./list.html?keyword=生鲜水果">生鲜水果</a></li>
+        <li class="list-item"><i class="fa fa-fax"></i><a href="./list.html?keyword=大家电">大家电</a><a href="./list.html?keyword=生活电器">/生活电器</a></li>
+        <li class="list-item"><i class="fa fa-bed"></i><a href="./list.html?keyword=家纺">家纺</a><a href="./list.html?keyword=家饰">/家饰</a><a href="./list.html?keyword=鲜花">/鲜花</a></li>
+        <li class="list-item"><i class="fa fa-cutlery"></i><a href="./list.html?keyword=厨具">厨具</a><a href="./list.html?keyword=收纳">/收纳</a><a href="./list.html?keyword=宠物">/宠物</a></li>
+        <li class="list-item"><i class="fa fa-book"></i><a href="./list.html?keyword=图书音像">图书音像</a></li>
       </ul>
     </div>
     <div class="swiper-container">
@@ -101,49 +119,72 @@
           <div class="arrow"><i class="fa fa-angle-right"></i></div>
         </div>
         <div class="prod-list">
-          <div class="prod-list-item prod-item">
-            <img src="http://pas3zgdl2.bkt.clouddn.com/g005.jpg">
-            <div class="prod-title">COBOR/可贝尔眼纹消眼贴膜眼霜组合淡化眼纹干纹眼膜</div>
-            <div class="prod-price">￥189</div>
-          </div>
-          <div class="prod-list-item prod-item">
-            <img src="http://pas3zgdl2.bkt.clouddn.com/g005.jpg">
-            <div class="prod-title">COBOR/可贝尔眼纹消眼贴膜眼霜组合淡化眼纹干纹眼膜</div>
-            <div class="prod-price">￥189</div>
-          </div>
-          <div class="prod-list-item prod-item">
-            <img src="http://pas3zgdl2.bkt.clouddn.com/g005.jpg">
-            <div class="prod-title">COBOR/可贝尔眼纹消眼贴膜眼霜组合淡化眼纹干纹眼膜</div>
-            <div class="prod-price">￥189</div>
-          </div>
-          <div class="prod-list-item prod-item">
-            <img src="http://pas3zgdl2.bkt.clouddn.com/g005.jpg">
-            <div class="prod-title">COBOR/可贝尔眼纹消眼贴膜眼霜组合淡化眼纹干纹眼膜</div>
-            <div class="prod-price">￥189</div>
-          </div>
-          <div class="prod-list-item prod-item">
-            <img src="http://pas3zgdl2.bkt.clouddn.com/g005.jpg">
-            <div class="prod-title">COBOR/可贝尔眼纹消眼贴膜眼霜组合淡化眼纹干纹眼膜</div>
-            <div class="prod-price">￥189</div>
-          </div>
-          <div class="prod-list-item prod-item">
-            <img src="http://pas3zgdl2.bkt.clouddn.com/g005.jpg">
-            <div class="prod-title">COBOR/可贝尔眼纹消眼贴膜眼霜组合淡化眼纹干纹眼膜</div>
-            <div class="prod-price">￥189</div>
-          </div>
         </div>
       </div>
     </section>
+    <section id="grocery">
+      <div class="content-header clearf">
+        <div class="title"><span class="chinese"></span><span class="en"></span></div>
+        <ul class="list">
+        </ul>
+      </div>
+      <div class="prod clearf">
+        <div class="brand">
+          <div class="text-box"><div class="l"></div><div class="r"></div></div>
+          <div class="arrow"><i class="fa fa-angle-right"></i></div>
+        </div>
+        <div class="prod-list">
+        </div>
+      </div>
+    </section>
+    <section id="outdoor">
+      <div class="content-header clearf">
+        <div class="title"><span class="chinese"></span><span class="en"></span></div>
+        <ul class="list">
+        </ul>
+      </div>
+      <div class="prod clearf">
+        <div class="brand">
+          <div class="text-box"><div class="l"></div><div class="r"></div></div>
+          <div class="arrow"><i class="fa fa-angle-right"></i></div>
+        </div>
+        <div class="prod-list">
+        </div>
+      </div>
+    </section>
+    <section id="electronic">
+      <div class="content-header clearf">
+        <div class="title"><span class="chinese"></span><span class="en"></span></div>
+        <ul class="list">
+        </ul>
+      </div>
+      <div class="prod clearf">
+        <div class="brand">
+          <div class="text-box"><div class="l"></div><div class="r"></div></div>
+          <div class="arrow"><i class="fa fa-angle-right"></i></div>
+        </div>
+        <div class="prod-list">
+        </div>
+      </div>
+    </section>
+    <section id="maylike">
+      <div class="maylike-header">
+        <i class="fa fa-heart-o"></i>猜你喜欢
+      </div>
+      <div class="maylike-prod">
+      </div>
+    </section>
   </div>
+  <div style="text-align: center;font-size:16px;margin: 15px 0;color: #ccc;">已无更多</div>
   <div class="footer">
     <div class="wrap">
       <ul class="links">
-        <li><a href="baidu.com">百度</a></li>
-        <li><a href="tmall.com">天猫</a></li>
-        <li><a href="zhihu.com">知乎</a></li>
-        <li><a href="weibo.com">微博</a></li>
-        <li><a href="github.com">github</a></li>
-        <li><a href="qq.com">腾讯</a></li>
+        <li><a href="//baidu.com">百度</a></li>
+        <li><a href="//tmall.com">天猫</a></li>
+        <li><a href="//zhihu.com">知乎</a></li>
+        <li><a href="//weibo.com">微博</a></li>
+        <li><a href="//github.com">github</a></li>
+        <li><a href="//qq.com">腾讯</a></li>
       </ul>
       <div class="copyright">Copyright ©2018 yancx.com All Rights Reserved</div>
     </div>

@@ -1,5 +1,6 @@
 .header{
 	overflow: hidden;
+	min-width:1080px;
 	color: #999;
 	height: 32px;
 	line-height: 32px;
@@ -31,6 +32,7 @@
 }
 .header-main{
 	width: 100%;
+	min-width:1080px;
 	height: 160px;
 	background-color: #fff;
 	overflow: hidden;
@@ -83,6 +85,9 @@
 .header-main .header-nav a{
 	font-size: 16px;
 	color: #333;
+}
+.swiper-container{
+	min-width: 1080px;
 }
 .swiper-container .swiper-wrapper .swiper-slide{
 	width: 100%;
@@ -191,7 +196,7 @@
 	width: 170px;
 	height: 60px;
 	left: 0;
-	bottom: 150px;
+	bottom: 100px;
 	overflow: hidden;
 }
 .prod .brand .text-box>.l{
@@ -203,7 +208,7 @@
 	font-size: 18px;
 	color: #fff;
 	padding: 10px;
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(0,0,0,.85);
 }
 .prod .brand .text-box>.r{
 	float: left;
@@ -213,7 +218,7 @@
 	font-size: 18px;
 	color: #fff;
 	padding: 10px;
-	background-color: rgba(0,0,0,.7);
+	background-color: rgba(0,0,0,.6);
 }
 .prod .brand .arrow{
 	position: absolute;
@@ -241,13 +246,14 @@
 	height: 295px;
 	padding: 10px;
 	margin: 0 10px 10px 0;
+	text-align: center;
 	background-color: #fff;
 }
 .prod .prod-list-item img{
-	width: 100%;
+	height: 186px;
 }
 .prod .prod-title{
-	margin: 10px;
+	margin: 5px 20px;
 	height: 40px;
 	text-align: center;
 	font-size: 14px;
@@ -269,4 +275,157 @@
 }
 .prod-item img:hover{
 	opacity: .8;
+}
+.maylike-header{
+	position: relative;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 2px;
+	padding: 50px 0 30px 0;
+	color: #666;
+}
+.maylike-header>i{
+	margin-right: 5px;
+}
+.maylike-header:before{
+	content: "";
+	position: absolute;
+	top: 64px;
+	left: 50%;
+	display: block;
+	width: 30px;
+	height: 1px;
+	margin-left: -90px;
+	background-color: #666;
+}
+.maylike-header:after{
+	content: "";
+	position: absolute;
+	top: 64px;
+	right: 50%;
+	display: block;
+	width: 30px;
+	height: 1px;
+	margin-right: -90px;
+	background-color: #666;
+}
+.maylike-prod{
+	overflow: hidden;
+	margin-right: -10px;
+}
+.maylike-prod .maylike-prod-box{
+	float: left;
+	box-sizing: border-box;
+	width: 20%;
+	padding: 0 10px 10px 0;
+}
+.maylike-prod-item{
+	width: 100%;
+	max-height: 295px;
+	padding: 10px;
+	text-align: center;
+	background-color: #fff;
+}
+.maylike-prod-item img{
+	width: 100%;
+}
+.maylike-prod-item .prod-title{
+	margin: 5px 20px;
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.maylike-prod-item .prod-price{
+	font-size: 18px;
+	text-align: center;
+	color: #ff0036;
+}
+/*侧边导航*/
+#side-nav{
+	position: fixed;
+	z-index: 10;
+	left: 5px;
+	bottom: 170px;
+	width: 35px;
+	text-align: center;
+	display: none;
+}
+#side-nav span{
+	display: block;
+	width: 40px;
+	line-height: 40px;
+	margin-bottom: 2px;
+	color: #fff;
+	background-color: #ff0036;
+	cursor: pointer;
+}
+#side-nav a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	margin-bottom: 2px;
+	line-height: 15px;
+	color: #fff;
+	background: #666;
+}
+#side-nav a:last-child{
+	background-color: #b3b3b3;
+}
+#side-nav a>.fa-angle-up{
+	display: block;
+}
+#side-nav .hover-bg-pink:hover{
+	background: #ff4da6;
+}
+#side-nav .hover-bg-green:hover{
+	background: #00e600;
+}
+#side-nav .hover-bg-blue:hover{
+	background: #1a75ff;
+}
+#side-nav .hover-bg-cyan:hover{
+	background: #00cccc;
+}
+#side-nav .may-like:hover{
+	background: #000;
+}
+
+/*顶部滚动一定距离后出现的固定导航*/
+#top-nav{
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	line-height: 50px;
+	background-color: #ff0036;
+	overflow: hidden;
+	display: none;
+}
+#top-nav .brand{
+	float: left;
+	line-height: 50px;
+	font-size: 26px;
+	font-weight: 600;
+	color: #fff;
+}
+#top-nav .search{
+	float: left;
+	margin-left:100px;
+}
+#top-nav .search input{
+	width: 600px;
+	line-height: 22px;
+    padding: 5px 10px;
+    margin: 9px 0;
+    border: none;
+
+}
+#top-nav .search button{
+	width: 80px;
+	height: 50px;
+	font-size: 18px;
+	text-align: left;
+	padding: 0 15px;
 }
